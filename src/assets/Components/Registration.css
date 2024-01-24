@@ -21,31 +21,28 @@ body{
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
-    position: relative;
+    position:relative;
+    margin-left: 40%;
     overflow: hidden;
-    width: 768px;
+    width: 1068px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 780px;
 }
-
 .container p{
     font-size: 14px;
     line-height: 20px;
     letter-spacing: 0.3px;
     margin: 20px 0;
 }
-
 .container span{
     font-size: 12px;
 }
-
 .container a{
     color: #333;
     font-size: 13px;
     text-decoration: none;
     margin: 15px 0 10px;
 }
-
 .container button{
     background-color: #512da8;
     color: #fff;
@@ -59,7 +56,6 @@ body{
     margin-top: 10px;
     cursor: pointer;
 }
-
 .container button.hidden{
     background-color: transparent;
     border-color: #fff;
@@ -79,10 +75,10 @@ body{
     background-color: #eee;
     border: none;
     margin: 8px 0;
-    padding: 10px 15px;
+    padding: 25px 30px;
     font-size: 13px;
     border-radius: 8px;
-    width: 100%;
+    width: 80%;
     outline: none;
 }
 

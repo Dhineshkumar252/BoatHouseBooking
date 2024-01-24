@@ -48,12 +48,12 @@ function Registration() {
                         <div className={`toggle ${isSignUpActive ? 'right-panel-active' : ''}`}>
                             <div className="toggle-panel toggle-left">
                                 <h1>Welcome Back!</h1>
-                                <p>Enter your personal details to use all of the site features</p>
+                                <p>Enter your login details</p>
                                 <button onClick={handleToggle} className="hidden" id="login">Sign In</button>
                             </div>
                             <div className="toggle-panel toggle-right">
                                 <h1>Hello, Friend!</h1>
-                                <p>Register with your personal details to use all of the site features</p>
+                                <p>Register with your personal details</p>
                                 <button onClick={handleToggle} className="hidden" id="register">Sign Up</button>
                             </div>
                         </div>
@@ -63,5 +63,4 @@ function Registration() {
         </>
     );
 }
-
 export default Registration;
